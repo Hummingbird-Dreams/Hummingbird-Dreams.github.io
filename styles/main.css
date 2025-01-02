@@ -263,6 +263,7 @@ header a {
 
 .about-paragraph {
     padding: 2rem;
+    z-index: 2;
 }
 
 .about-shape-1 {
@@ -675,6 +676,15 @@ header a {
 /* ************* */
 /* RESPONSIVE SECTION */
 /* ************* */
+
+/* LARGE SCREENS */
+
+@media (max-width: 1440em) {
+    .about-shape-3 {
+        top: 5rem;
+        left: 30rem;
+    }
+}
 
 /* SMALL COMPUTERS */
 
