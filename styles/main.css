@@ -251,6 +251,7 @@ header a {
     flex-direction: column;
     gap: 2rem;
     padding: 5rem;
+    z-index: 2;
 }
 
 .about-img {
