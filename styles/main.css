@@ -852,6 +852,36 @@ header a {
     }
 }
 
+@media (max-width: 76.8em) {
+    .about-shape-1 {
+        top: 40rem;
+        right: 1rem;
+    }
+
+    .creations-shape-4 {
+        top: 65rem;
+        right: 5rem;
+    }
+    .creations-shape-5 {
+        top: 55rem;
+        left: 3rem;
+    }
+    .social-media-circle-1 {
+        top: 10rem;
+        left: 50rem;
+    }
+
+    .social-media-circle-2 {
+        bottom: 10rem;
+        left: 2rem;
+    }
+
+    .social-media-circle-3 {
+        bottom: 7rem;
+        left: 35rem;
+    }
+}
+
 @media (max-width: 63em) {
     .creations-grid {
         gap: 2.4rem;
