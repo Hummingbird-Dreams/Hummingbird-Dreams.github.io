@@ -72,6 +72,7 @@ main {
     max-width: 120rem;
     padding: 0;
     margin: 0 auto;
+    z-index: 2;
 }
 
 .grid {
@@ -684,11 +685,18 @@ header a {
         top: 5rem;
         left: 30rem;
     }
+
+    .heading-secondary {
+        z-index: 2;
+    }
 }
 
 /* SMALL COMPUTERS */
 
 @media (max-width: 82.5em) {
+    .heading-secondary {
+        z-index: 2;
+    }
     .hero-container {
         min-height: 80vh;
         display: flex;
